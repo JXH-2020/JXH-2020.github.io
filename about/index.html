@@ -582,7 +582,7 @@
   
   <script type="text/javascript">
     var GUEST = ['nick','mail','link'];
-    var guest = '';
+    var guest = 'nick,mail,link';
     guest = guest.split(',').filter(item=>{
       return GUEST.indexOf(item)>-1;
     });
@@ -593,7 +593,7 @@
         appId: 'pM7j1iPjry7b5Pcz0CBnsri4-gzGzoHsz',
         appKey: 'F3Dmb0dN1aPyCttHsIofDjpL',
         placeholder: 'Just go go',
-        avatar:'mm',
+        avatar:'https://images.weserv.nl/?url=https://article.biliimg.com/bfs/article/bee5c5e22304e4370467a4b23b6d6934ff76d424.jpg',
         guest_info:guest,
         pageSize:'10' || 10,
     });
